@@ -1,0 +1,91 @@
+{
+  "plugins": {
+    "blink.cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "'main'"
+    },
+    "blink.lib": {
+      "rev": "f29d8bac6549bc1e7d699c83f680823d7def98bd",
+      "src": "https://github.com/saghen/blink.lib"
+    },
+    "conform.nvim": {
+      "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
+      "src": "https://github.com/stevearc/conform.nvim"
+    },
+    "fidget.nvim": {
+      "rev": "889e2e96edef4e144965571d46f7a77bcc4d0ddf",
+      "src": "https://github.com/j-hui/fidget.nvim"
+    },
+    "fzf-lua": {
+      "rev": "2e29d5f233defe3c5587df0e4dd29af2bd95a5a7",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "kotlin.nvim": {
+      "rev": "a571cae2f5f23d9ca35e2e64e4d5d7fd8a8eb06d",
+      "src": "https://github.com/AlexandrosAlexiou/kotlin.nvim"
+    },
+    "lsp-progress.nvim": {
+      "rev": "f6d5af10563b895ff846346f57cbd4451439f4c1",
+      "src": "https://github.com/linrongbin16/lsp-progress.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "a905eeebc4e63fdc48b5135d3bf8aea5618fb21c",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "mason.nvim": {
+      "rev": "cb8445f8ce85d957416c106b780efd51c6298f89",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "neo-tree.nvim": {
+      "rev": "84c75e7a7e443586f60508d12fc50f90d9aee14e",
+      "src": "https://github.com/nvim-neo-tree/neo-tree.nvim",
+      "version": "3.0.0 - 4.0.0"
+    },
+    "nui.nvim": {
+      "rev": "de740991c12411b663994b2860f1a4fd0937c130",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim-dap": {
+      "rev": "531771530d4f82ad2d21e436e3cc052d68d7aebb",
+      "src": "https://github.com/mfussenegger/nvim-dap"
+    },
+    "nvim-java": {
+      "rev": "602a5f7fa92f9c1d425a2159133ff9de86842f0a",
+      "src": "https://github.com/nvim-java/nvim-java"
+    },
+    "nvim-notify": {
+      "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
+      "src": "https://github.com/rcarriga/nvim-notify"
+    },
+    "nvim-treesitter": {
+      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-web-devicons": {
+      "rev": "8069e89df2d7259704286a5906a11c5b27d5b440",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "snacks.nvim": {
+      "rev": "ad9ede6a9cddf16cedbd31b8932d6dcdee9b716e",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
+    "spring-boot.nvim": {
+      "rev": "218c0c26c14d99feca778e4d13f5ec3e8b1b60f0",
+      "src": "https://github.com/JavaHello/spring-boot.nvim",
+      "version": "'218c0c26c14d99feca778e4d13f5ec3e8b1b60f0'"
+    },
+    "vscode.nvim": {
+      "rev": "aa1102a7e15195c9cca22730b09224a7f7745ba8",
+      "src": "https://github.com/mofiqul/vscode.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}
