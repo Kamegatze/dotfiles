@@ -7,16 +7,20 @@ return {
 			configuration = {
 				runtimes = {
 					{
+						name = "JavaSE-25",
+						path = os.getenv("HOME") .. "/.sdkman/candidates/java/25.0.4-amzn",
+					},
+					{
 						name = "JavaSE-21",
-						path = os.getenv("HOME") .. ".sdkman/candidates/java/21.0.9-zulu",
+						path = os.getenv("HOME") .. "/.sdkman/candidates/java/21.0.9-zulu",
 					},
 					{
 						name = "JavaSE-17",
-						path = os.getenv("HOME") .. ".sdkman/candidates/java/17.0.17-zulu",
+						path = os.getenv("HOME") .. "/.sdkman/candidates/java/17.0.17-zulu",
 					},
 					{
 						name = "JavaSE-11",
-						path = os.getenv("HOME") .. ".sdkman/candidates/java/11.0.29-zulu",
+						path = os.getenv("HOME") .. "/.sdkman/candidates/java/11.0.29-zulu",
 					},
 				},
 			},

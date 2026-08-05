@@ -1,0 +1,164 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" You can find a list of commands here: https://jb.gg/h38q75
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map <leader>r to the Reformat Code action
+"" map <leader>r <Action>(ReformatCode)
+
+"" Refactor element for examples variable or name class and etc
+map cr <Action>(RenameElement)
+map cf <Action>(ReformatCode)
+
+"" Run active run configuration
+map <leader>r <Action>(Run)
+
+"" Run task in current class
+map <leader>rc <Action>(RunClass)
+
+"" Stop execute run or debug
+map <leader>s <Action>(Stop)
+
+"" Map d to start debug
+map <leader>d <Action>(Debug)
+
+"" debug current class or test method
+map <leader>dc <Action>(DebugClass)
+
+"" Map Alt + v for step over in debug
+map <A-v> <Action>(StepOver)
+
+"" Map Alt + i for step into in debug
+map <A-i> <Action>(StepInto)
+
+"" Map Alt + o for set out in debug
+map <A-o> <Action>(StepOut)
+
+"" Map Alt + r for resume debug
+map <A-r> <Action>(Resume)
+
+"" Map <leader>b to toggle the breakpoint on the current line
+map <leader>b <Action>(ToggleLineBreakpoint)
+
+set relativenumber
+
+" redo
+noremap U <C-r>
+
+" leader key
+let mapleader = ' '
+
+" sync Vim clipboard with OS clipboard
+set clipboard^=unnamed,unnamedplus
+
+" smart line joining
+set ideajoin
+
+" source config vim in to idea
+noremap <leader>o :source ~/.ideavimrc<cr> :nohlsearch<cr>
+
+set hlsearch
+
+" remove search highlights
+noremap <Esc> :nohlsearch<cr>
+
+
+set ignorecase
+
+set smartcase
+
+" search while typing
+
+set incsearch
+
+" mapping for CamelCase or SnakeCase words
+
+" move to the beginning of the next word
+map w [w
+
+" move to the end of the next word
+map e ]w
+
+" move to the beginning of the next word
+map b [b
+
+" move to the end of the previous word
+map ge ]b
+
+" Split windows
+
+map <leader>wr <Action>(SplitVertically)
+
+map <leader>wd <Action>(SplitHorizontally)
+
+map <leader>wx <Action>(Unsplit)
+
+map <leader>wh <Action>(HideActiveWindow)
+
+map <leader>xx <Action>(UnsplitAll)
+
+
+map <leader>tc <Action>(CloseActiveTab)
+
+map <leader>wca <Action>(CloseAllEditors)
+
+map <A-h> <C-w>h
+map <A-l> <C-w>l
+map <A-j> <C-w>j
+map <A-k> <C-w>k
+
+
+map <leader>fc <Action>(GotoClass)
+map <leader>ff <Action>(GotoFile)
+map <leader>fs <Action>(GotoSymbol)
+map <leader>fa <Action>(GotoAction)
+map <leader>ft <Action>(TextSearchAction)
+map <leader>a <Action>(SearchEverywhere)
+
+map <leader>gd <Action>(GotoDeclaration)
+map <leader>gD <Action>(GotoTypeDeclaration)
+map <leader>gi <Action>(GotoImplementation)
+map <leader>gt <Action>(GotoTest)
+map <leader>gm <Action>(GotoSuperMethod)
+
+map <leader>ne <Action>(GotoNextError)
+map <leader>pe <Action>(GotoPreviousError)
+map <leader>lc <Action>(JumpToLastChange)
+map <leader>ll <Action>(RecentLocations)
+map <leader>rf <Action>(RecentFiles)
+
+map L <Action>(NextTab)
+map H <Action>(PreviousTab)
+" close tab
+map <leader>bd <Action>(CloseContent) | <Action>(Images.Thumbnails.Hide) | <Action>(Terminal.CloseTab)
+
+map <A-j> <Action>(MoveStatementDown)
+map <A-k> <Action>(MoveStatementUp)
+
+map <leader>ns <Action>(NewScratchFile)
+map <leader>nf <Action>(NewFile)
+map <leader>nd <Action>(NewDir)
+map <leader>nc <Action>(NewClass)
+
+Plug 'preservim/nerdtree'

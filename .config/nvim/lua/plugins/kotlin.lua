@@ -8,9 +8,7 @@ require("kotlin").setup({
 		"mvnw",
 		"settings.gradle",
 		"settings.gradle.kts",
-	},
-
-	-- Optional: Java Runtime to run the kotlin-lsp server itself
+	}, -- Optional: Java Runtime to run the kotlin-lsp server itself
 	-- LEGACY ONLY — ignored on v262.4739.0+ (bin/intellij-server manages
 	-- its own JBR; a warning is shown if this is set on a new install).
 	-- Only useful with older builds that ship kotlin-lsp.sh / kotlin-lsp.cmd.
