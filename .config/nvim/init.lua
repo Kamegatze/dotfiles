@@ -1,5 +1,3 @@
-require("config")
-require("plugins")
-require("keymap")
-require("autocmd")
+require("config.lazy")
 require("lsp")
+require("config.options")

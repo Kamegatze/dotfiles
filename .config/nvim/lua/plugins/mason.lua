@@ -1,2 +1,27 @@
-vim.pack.add({ "https://github.com/mason-org/mason.nvim" })
-require("mason").setup()
+return {
+	"mason.nvim",
+	{ "mason-org/mason-lspconfig.nvim", config = function() end },
+	opts = {
+		ensure_installed = {
+			"stylua",
+			"shfmt",
+			"checkstyle",
+			"google-java-format",
+			"java-debug-adapter",
+			"java-test",
+			"jdtls",
+			"sonarlint-language-server",
+			"codelldb",
+			"rust-analyzer",
+			"jq",
+			"kotlin-debug-adapter",
+			"kotlin-lsp",
+			"ktfmt",
+			"lua-language-server",
+			"stylua",
+			"taplo",
+			"xmlformatter",
+			"yamlfmt",
+		},
+	},
+}
