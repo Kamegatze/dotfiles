@@ -8,14 +8,10 @@ fi
 
 
 
-export ALL_PROXY="socks5://127.0.0.1:1080"
-export all_proxy="socks5://127.0.0.1:1080"
-export http_proxy="socks5://127.0.0.1:1080"
-export HTTP_PROXY="socks5://127.0.0.1:1080"
-export https_proxy="socks5://127.0.0.1:1080"
-export HTTPS_PROXY="socks5://127.0.0.1:1080"
-# export ALL_PROXY=
-# export all_proxy=
+# export ALL_PROXY="socks5://127.0.0.1:1080"
+# export all_proxy="socks5://127.0.0.1:1080"
+export ALL_PROXY=
+export all_proxy=
 export MOZ_ENABLE_WAYLAND=1
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH

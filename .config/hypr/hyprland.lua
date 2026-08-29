@@ -76,6 +76,9 @@ hl.gesture({
 })
 
 hl.config({
+	xwayland = {
+		enabled = true,
+	},
 	general = {
 		border_size = 5,
 		col = {
