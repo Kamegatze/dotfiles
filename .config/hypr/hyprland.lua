@@ -78,6 +78,7 @@ hl.gesture({
 hl.config({
 	xwayland = {
 		enabled = true,
+		force_zero_scaling = true,
 	},
 	general = {
 		border_size = 5,
