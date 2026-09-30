@@ -1,1 +1,1 @@
-vim.lsp.enable({ "rust-analyzer", "lua_ls", "jdtls" })
+vim.lsp.enable({ "rust-analyzer", "lua_ls", "jdtls", "intellij_server" })

@@ -1,8 +1,8 @@
 return {
 	cmd = { "intellij-server", "--stdio" },
-	filetypes = { "kotlin", "java" },
+	filetypes = { "kotlin" },
 	root_markers = { ".git", "settings.gradle", "settings.gradle.kts", "pom.xml" },
-	single_file_support = false,
+	single_file_support = true,
 	-- settings = {
 	-- 	scripts = {
 	-- 		enabled = true,

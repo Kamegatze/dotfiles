@@ -121,7 +121,9 @@ map <leader>xx <Action>(UnsplitAll)
 
 map <leader>tc <Action>(CloseActiveTab)
 
-map <leader>wca <Action>(CloseAllEditors)
+map <leader>ba <Action>(CloseAllEditors)
+
+map <leader>bo <Action>(CloseAllEditorsButActive)
 
 map <A-h> <C-w>h
 map <A-l> <C-w>l
@@ -160,5 +162,6 @@ map <leader>ns <Action>(NewScratchFile)
 map <leader>nf <Action>(NewFile)
 map <leader>nd <Action>(NewDir)
 map <leader>nc <Action>(NewClass)
+map <C-/> <Action>(ActivateTerminalToolWindow)
 
 Plug 'preservim/nerdtree'
