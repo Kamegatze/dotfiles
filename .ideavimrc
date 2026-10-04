@@ -110,7 +110,7 @@ map ge ]b
 
 map <leader>wr <Action>(SplitVertically)
 
-map <leader>wd <Action>(SplitHorizontally)
+map <leader>ws <Action>(SplitHorizontally)
 
 map <leader>wx <Action>(Unsplit)
 
@@ -125,10 +125,10 @@ map <leader>ba <Action>(CloseAllEditors)
 
 map <leader>bo <Action>(CloseAllEditorsButActive)
 
-map <A-h> <C-w>h
-map <A-l> <C-w>l
-map <A-j> <C-w>j
-map <A-k> <C-w>k
+map <C-h> <C-w>h
+map <C-l> <C-w>l
+map <C-j> <C-w>j
+map <C-k> <C-w>k
 
 
 map <leader>fc <Action>(GotoClass)
@@ -138,11 +138,11 @@ map <leader>fa <Action>(GotoAction)
 map <leader>ft <Action>(TextSearchAction)
 map <leader>a <Action>(SearchEverywhere)
 
-map <leader>gd <Action>(GotoDeclaration)
-map <leader>gD <Action>(GotoTypeDeclaration)
-map <leader>gi <Action>(GotoImplementation)
-map <leader>gt <Action>(GotoTest)
-map <leader>gm <Action>(GotoSuperMethod)
+map gd <Action>(GotoDeclaration)
+map gD <Action>(GotoTypeDeclaration)
+map gi <Action>(GotoImplementation)
+map gt <Action>(GotoTest)
+map gm <Action>(GotoSuperMethod)
 
 map <leader>ne <Action>(GotoNextError)
 map <leader>pe <Action>(GotoPreviousError)
