@@ -57,13 +57,13 @@ hl.on("hyprland.start", function()
 end)
 
 hl.monitor({
-	output = "DP-3",
+	output = "DP-2",
 	mode = "3440x1440@180",
 	position = "0x0",
 	scale = "1",
 })
 hl.monitor({
-	output = "HDMI-A-1",
+	output = "DP-3",
 	mode = "1920x1080",
 	position = "3440x0",
 	scale = "1",
